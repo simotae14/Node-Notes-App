@@ -1,0 +1,22 @@
+{
+  "name": "notes-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simotae14/Node-Notes-App.git"
+  },
+  "author": "Simone Taeggi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simotae14/Node-Notes-App/issues"
+  },
+  "homepage": "https://github.com/simotae14/Node-Notes-App#readme",
+  "dependencies": {
+    "validator": "^10.8.0"
+  }
+}
