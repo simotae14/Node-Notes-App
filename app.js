@@ -4,6 +4,7 @@ const {
   getNotes,
   addNote,
   removeNote,
+  listNotes,
 } = require('./notes');
 
 // Customize yargs version
@@ -52,7 +53,7 @@ yargs.command({
   command: 'list',
   describe: 'List your notes',
   handler() {
-    console.log('Listing out all notes!');
+    listNotes();
   }
 })
 
